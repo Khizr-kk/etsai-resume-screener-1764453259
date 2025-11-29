@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUp AI - Your Career Accelerator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        #hero {
+            background-color: #3498db;
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        #hero h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        #hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #27ae60;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section:nth-child(even) {
+            background-color: #e0e6e7;
+        }
+        .section h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            text-align: left;
+            margin-top: 40px;
+        }
+        .feature-item {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .feature-item h4 {
+            font-size: 22px;
+            color: #3498db;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .feature-item p {
+            font-size: 16px;
+        }
+        #pricing p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            #hero h2 {
+                font-size: 36px;
+            }
+            #hero p {
+                font-size: 18px;
+            }
+            .section h3 {
+                font-size: 28px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            #hero {
+                padding: 60px 15px;
+            }
+            #hero h2 {
+                font-size: 30px;
+            }
+            #hero p {
+                font-size: 16px;
+            }
+            .btn {
+                padding: 12px 25px;
+                font-size: 18px;
+            }
+            .section {
+                padding: 40px 15px;
+            }
+            .section h3 {
+                font-size: 24px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SkillUp AI</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Unlock Your Dream Software Job in India.</h2>
+                <p>SkillUp AI empowers fresh Indian software engineers to perfectly tailor their resumes, identify critical skill gaps, and stand out to top recruiters with AI-driven insights.</p>
+                <a href="#features" class="btn">Get Started Free</a>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h3>How SkillUp AI Accelerates Your Career</h3>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>Smart Resume Analysis</h4>
+                        <p>Upload your resume (PDF/DOCX) and our AI instantly parses it, extracting key information and skills.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Job Description Matchmaker</h4>
+                        <p>Input any job description to receive a precise, AI-powered match score, showing your alignment with the role.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Identify Missing Skills</h4>
+                        <p>Clearly see the skills you're missing for your target job, with actionable suggestions for improvement.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Personalized Resume Feedback</h4>
+                        <p>Get specific recommendations to optimize your resume, making it irresistible to hiring managers.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Track Your Progress</h4>
+                        <p>A simple dashboard helps you review past analyses and track your journey towards resume perfection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section">
+            <div class="container">
+                <h3>Simple & Transparent Pricing</h3>
+                <p>Start your journey to success today with our flexible plans designed for every aspiring engineer. Get premium insights and continuous improvement with affordable options.</p>
+                <a href="#" class="btn">View Plans (Coming Soon!)</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2223 SkillUp AI. All rights reserved. | Contact: info@skillupai.com</p>
+        </div>
+    </footer>
+</body>
+</html>
